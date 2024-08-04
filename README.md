@@ -18,12 +18,12 @@
 - Web Scraping con Selenium y otros herramientas.
 
 ### 🔭 Mis proyectos destacados
-- [Proyecto 1](link-al-proyecto-1): Breve descripción del proyecto y su importancia.
-- [Proyecto 2](link-al-proyecto-2): Breve descripción del proyecto y su importancia.
-- [Proyecto 3](link-al-proyecto-3): Breve descripción del proyecto y su importancia.
+- [Aplicacion del tiempo ](https://github.com/juanhdezz/app_tiempo): Aplicación del tiempo creada con react.js integrando APIs
+- [RoomRadarR](https://github.com/juanhdezz/RoomRadar-Scrapper): Proyecto de web scrapping para comparar hoteles y habitaciones 
+- [RecipeScrapper](https://github.com/juanhdezz/recetas): Proyecto de Web Scrapping para obtener recetas segun el ingrediente
 
 ### 📫 Contáctame
-- LinkedIn: [Juan Hernández](https://www.linkedin.com/in/juan-hernandez/)
-- Correo Electrónico: tuemail@example.com
+- LinkedIn: [Juan Hernández](www.linkedin.com/in/juan-hernandez-sag)
+- Correo Electrónico: jhernandezsanchezagesta@gmail.com
 
 ### 🚀 Let's code and create amazing things together!
