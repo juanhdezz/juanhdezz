@@ -16,6 +16,8 @@
 - Lenguajes de programación como C/C++, Java y Python.
 - Uso e integración de APIs en proyectos.
 - Web Scraping con Selenium y otros herramientas.
+- Data Anayltics
+- SQL avanzado
 
 ### 🔭 Mis proyectos destacados
 - [Aplicacion del tiempo ](https://github.com/juanhdezz/app_tiempo): Aplicación del tiempo creada con react.js integrando APIs
