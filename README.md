@@ -23,6 +23,7 @@
 - [Aplicacion del tiempo ](https://github.com/juanhdezz/app_tiempo): Aplicación del tiempo creada con react.js integrando APIs
 - [RoomRadarR](https://github.com/juanhdezz/RoomRadar-Scrapper): Proyecto de web scrapping para comparar hoteles y habitaciones 
 - [RecipeScrapper](https://github.com/juanhdezz/recetas): Proyecto de Web Scrapping para obtener recetas segun el ingrediente
+- [Detecetor de fraude en transacciones bancarias](https://github.com/juanhdezz/Fraud_detection_analytics_project): Proyecto donde desarrollo una aplicación en Python en la que aplico parte de lo aprendido Análisis de Datos.
 
 ### 📫 Contáctame
 - LinkedIn: [Juan Hernández](www.linkedin.com/in/juan-hernandez-sag)
