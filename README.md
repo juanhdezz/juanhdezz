@@ -9,7 +9,7 @@
   <img src="https://media.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif" width="300">
 </p>
 
-Welcome to my repository! Here you will find a showcase of the projects I've been working on. I like really much deveolping new apps and learning new stuff, currently pursuing a Dual Degree in Computer Engineering + Business Administration at the University of Granada.
+Welcome to my repository! Here you will find a showcase of the projects I've been working on. I like really much developing new apps and learning new stuff, currently pursuing a Dual Degree in Computer Engineering + Business Administration at the University of Granada.
 
 ### 🌱 Currently learning
 - Web development with HTML, CSS, JavaScript,TypeScript, React, and PHP.
@@ -29,4 +29,4 @@ Welcome to my repository! Here you will find a showcase of the projects I've bee
 - LinkedIn: [Juan Hernández](www.linkedin.com/in/juan-hernandez-sag)
 - Email: jhernandezsanchezagesta@gmail.com
 
-### 🚀 Let's code and create amazing things together!
+### 🚀 Let's give it our all!
