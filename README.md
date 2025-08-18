@@ -24,8 +24,8 @@ Soy una persona curiosa, creativa y orientada al aprendizaje continuo. Mi formac
 Desarrollo de aplicación web para la gestión Interna del departamento de Ciencias de la Computación e Inteligencia Artificial  
 🔗 [Repositorio en GitHub](https://github.com/juanhdezz/tfg_gestion_ccia)
 
-### 📌 Proyecto Cívica (Business Intelligence & Data Discovery)  
-Diseño y desarrollo de un dashboard de analítica con SQL y herramientas de visualización centrado en la toma de decisiones basada en datos ,a partir de un dataset extraido de Kaggle y procesado a traves de una ETL con scripts de python que automatizan la tarea y que se encargar de limpiar y transformar los datos impuros.  
+### 📌 Proyecto Business Intelligence & Data Discovery
+Diseño y desarrollo de un dashboard de analítica con SQL y herramientas de visualización centrado en la toma de decisiones basada en datos ,a partir de un dataset extraido de Kaggle y procesado a traves de una ETL con scripts de python que automatizan la tarea y que se encargar de limpiar y transformar los datos impuros. Este proyecto ha sido realizado bajo la supervision y la evaluacion de la consultora Civica Software  
 🔗 [Repositorio en GitHub](https://github.com/juanhdezz/BI_Civica_DataAnalyticsProject)
 
 ### 🔎 Otros proyectos  
