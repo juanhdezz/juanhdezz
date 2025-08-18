@@ -6,7 +6,9 @@
 
 <p align="center">
 🎓 Graduado en Ingeniería Informática + ADE por la Universidad de Granada  
+  <br>
 📍 Granada, Andalucía, España  
+  <br>
 📊 Apasionado por el mundo de los datos: desde la ingeniería de datos y la analítica, hasta la ciencia de datos y la Inteligencia Artificial
 </p>
 
