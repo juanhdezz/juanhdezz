@@ -7,6 +7,8 @@
 <p align="center">
 🎓 Graduado en Ingeniería Informática + ADE por la Universidad de Granada  
   <br>
+🎓 Estudiante Master en Ciencia de Datos en Universidad de Granada  
+  <br>
 📍 Granada, Andalucía, España  
   <br>
 📊 Apasionado por el mundo de los datos: desde la ingeniería de datos y la analítica, hasta la ciencia de datos y la Inteligencia Artificial
@@ -16,6 +18,7 @@
 
 ## 🚀 Sobre mí
 Soy una persona curiosa, creativa y orientada al aprendizaje continuo. Mi formación en ingeniería informática y administración y dirección de empresas me permite tener una visión tanto técnica como estratégica de los proyectos. Me interesa especialmente el **Big Data y la analítica avanzada, así como la Ciencia de datos e Inteligencia Artifical**, y busco aplicar mis conocimientos en entornos innovadores y colaborativos.
+Actualmente me encuentro cursando el master en Ciencia de Datos e Ingeniería de Computadores de la UGR, para sgeuir especializandome en AI/ML 
 
 ---
 
