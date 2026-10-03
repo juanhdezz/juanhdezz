@@ -110,11 +110,11 @@ Un agente base que se especializa solo, inspirado en las células madre (reto pl
 Últimos repositorios públicos con cambios. Se actualiza cada semana con una [GitHub Action](https://github.com/juanhdezz/juanhdezz/blob/main/.github/workflows/activity.yml).
 
 <!-- activity:start -->
+- [TFM-Glucose-Prediction](https://github.com/juanhdezz/TFM-Glucose-Prediction) <sub>Jupyter Notebook, último push 2026-10-03</sub>
+- [stem-agent](https://github.com/juanhdezz/stem-agent) <sub>Python, último push 2026-10-03</sub>
 - [portfolio-web](https://github.com/juanhdezz/portfolio-web) <sub>TypeScript, último push 2026-10-03</sub>
-- [TFM-Glucose-Prediction](https://github.com/juanhdezz/TFM-Glucose-Prediction) <sub>Jupyter Notebook, último push 2026-09-16</sub>
 - [Aplicaciones-Ciencia-Datos-DATCOM-UGR](https://github.com/juanhdezz/Aplicaciones-Ciencia-Datos-DATCOM-UGR) <sub>Jupyter Notebook, último push 2026-06-16</sub>
 - [Emprendimiento-Transferencia-Conocimiento-DATCOM-UGR](https://github.com/juanhdezz/Emprendimiento-Transferencia-Conocimiento-DATCOM-UGR) <sub>Sin lenguaje, último push 2026-06-16</sub>
-- [Mineria-Datos-Aprendizaje-No-Supervisado-Seteccion-Anomalias-DATCOM-UGR](https://github.com/juanhdezz/Mineria-Datos-Aprendizaje-No-Supervisado-Seteccion-Anomalias-DATCOM-UGR) <sub>Jupyter Notebook, último push 2026-06-16</sub>
 <!-- activity:end -->
 
 ## Contacto
