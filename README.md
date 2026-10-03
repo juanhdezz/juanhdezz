@@ -52,7 +52,7 @@ Consultar tus finanzas hablando: saldo, Bizum y preguntas libres sobre tus movim
 <sub><a href="https://unicaja-ai-assistant.vercel.app">Abrir la demo (v1)</a> (repositorios privados)</sub>
 
 ### [StemAgent](https://github.com/juanhdezz/stem-agent)
-Un agente base que se especializa solo, inspirado en las células madre (reto planteado por JetBrains). Dada una clase de problemas, busca en la web cómo los abordan los expertos, diseña su propia configuración (prompt, herramientas y flujo), se valida contra un benchmark etiquetado y repite hasta superar un umbral. Aplicado a code review en Python, pasa de un F1 de 0,180 con un agente genérico a 0,743 tras especializarse.
+Un agente base que se especializa solo, inspirado en las células madre (reto planteado por JetBrains). Dada una clase de problemas, busca en la web cómo los abordan los expertos, diseña su propia configuración (prompt, herramientas y flujo), se valida contra un benchmark etiquetado y repite hasta superar un umbral. Aplicado a code review en Python, pasa de un F1 de 0,180 con un agente genérico a 0,743 tras especializarse, en un benchmark propio de 37 fragmentos.
 
 <sub><b>Stack:</b> Python, LangGraph, LangChain, OpenAI API, Tavily, pytest</sub><br>
 <sub><a href="https://github.com/juanhdezz/stem-agent">Ver el repositorio</a></sub>
