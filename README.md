@@ -1,155 +1,122 @@
-<h1 align="center">Juan Hernández</h1>
+<a href="https://portfolio-web-juanhdezzs-projects.vercel.app">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+    <img alt="Juan Hernández, Data Scientist & AI Engineer. Ciencia de datos y agentic AI, desde Granada." src="assets/banner-light.svg" width="100%">
+  </picture>
+</a>
 
 <p align="center">
-  <img src="https://media.licdn.com/dms/image/v2/D4E03AQFQZWVyzo1rbg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1725042053013?e=1758153600&v=beta&t=1HIIO5r4hbL4NpStM03OMKFvce8Hkp7uzm6qyxCjxz8" alt="Juan Hernández" width="160" style="border-radius:50%">
+  Hago de puente entre los equipos técnicos y el negocio: del dato en bruto al modelo,<br>
+  y del modelo a una recomendación que se entiende y se puede decidir.
 </p>
 
 <p align="center">
-  <strong>Data Scientist · Machine Learning Engineer · Agentic AI</strong><br>
-  Máster en Ciencia de Datos e Ingeniería de Computadores — Universidad de Granada (DATCOM)<br>
-  Grado en Ingeniería Informática + ADE — Universidad de Granada<br>
-  Granada, España
+  <a href="https://portfolio-web-juanhdezzs-projects.vercel.app"><b>Portfolio</b></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/juan-hernandez-sag/"><b>LinkedIn</b></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="mailto:jhernandezsanchezagesta@gmail.com"><b>Email</b></a>
 </p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/juan-hernandez-sag"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:jhernandezsanchezagesta@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat&logo=scikitlearn&logoColor=white" alt="Scikit-Learn">
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white" alt="Jupyter">
-</p>
-
----
 
 ## Sobre mí
 
-Soy Data Scientist con formación técnica en Ingeniería Informática y experiencia práctica en proyectos de Machine Learning, análisis exploratorio de datos, series temporales y sistemas de inteligencia artificial. Actualmente curso el Máster en Ciencia de Datos e Ingeniería de Computadores (DATCOM) de la UGR, donde he desarrollado proyectos de extremo a extremo que van desde la adquisición y limpieza de datos hasta el despliegue de modelos predictivos en producción.
+Soy **Juan Hernández Sánchez-Agesta**, Data Scientist y AI Engineer en Granada. Me formé en Ingeniería Informática y en Administración y Dirección de Empresas, y después hice el Máster en Ciencia de Datos de la Universidad de Granada. Esa mezcla es la que uso cada día: entender el problema de negocio, resolverlo con datos y explicarlo a quien tiene que decidir.
 
-Mi enfoque combina rigor técnico con visión de negocio, gracias a la doble titulación en Informática y ADE. Me interesa especialmente el área de **Agentic AI**, los sistemas de Machine Learning aplicados a problemas reales y la automatización de flujos de datos con Python.
+- **Ahora:** Data Scientist en **WhiteBox**, dentro de un proyecto de consultoría para Renfe. Ciclo completo: preparación de datos, análisis exploratorio, modelado predictivo y entrega de insights a negocio.
+- **Antes:** AI Engineer / Automation Engineer en **NTT Data** (automatización con APIs, workflows e IA generativa, LangChain/LangGraph) y Data Engineer Trainee en **NFQ** (Spark y ecosistema Hadoop).
+- **Lo que más me interesa:** agentes de IA que se puedan evaluar y acotar con guardrails, preguntas en lenguaje natural sobre datos (NL→SQL), interfaces de voz y modelos de series temporales.
 
----
+<details>
+<summary><b>In English</b></summary>
+<br>
 
-## Proyectos Destacados
+Data Scientist and AI Engineer based in Granada, Spain, with a background in Computer Engineering, Business Administration and a Master's in Data Science (University of Granada). I currently work as a Data Scientist at WhiteBox, on a consulting project for Renfe. Before that I built GenAI automations at NTT Data and Spark pipelines at NFQ. I enjoy bridging technical teams and business stakeholders, and building agentic AI systems that can be measured.
 
-### Detección de Fraude en Transacciones Bancarias
-**[`juanhdezz/Fraud_detection_analytics_project`](https://github.com/juanhdezz/Fraud_detection_analytics_project) · [`juanhdezz/fraude_detection_app`](https://github.com/juanhdezz/fraude_detection_app)**
+</details>
 
-Proyecto de clasificación binaria para identificar transacciones bancarias fraudulentas. Incluye un pipeline completo de Data Science:
+## Proyectos destacados
 
-- Análisis Exploratorio de Datos (EDA) con Pandas, Matplotlib y Seaborn sobre un dataset de transacciones reales.
-- Entrenamiento y evaluación de modelos de clasificación (Random Forest, Gradient Boosting) con validación cruzada.
-- Métricas obtenidas: **Accuracy 89.14% · Recall 60% · AUC-ROC 0.97**.
-- Serialización del modelo con `joblib` y despliegue de una aplicación interactiva con **Streamlit**, que permite predicción en tiempo real desde el navegador.
+### [emergencIAs](https://emergencias-platform.vercel.app)
+Sala de mando de emergencias para España con agentes de IA. Reúne en una pantalla las alertas en tiempo real, una centralita 112 atendida por IA (transcripción, clasificación, prioridad y escalado a un operador humano), la gestión de cada situación con informes generados por IA y un mapa operativo por comunidades y provincias. La IA clasifica y propone; el operador decide.
 
-`Python` `Scikit-Learn` `Pandas` `Streamlit` `Jupyter Notebook`
+<sub><b>Stack:</b> TypeScript, Next.js 16, React 19, Hono, WebSockets, Zod, MapLibre, deck.gl, Claude (Anthropic API), Vitest, Playwright, Docker</sub><br>
+<sub><a href="https://emergencias-platform.vercel.app">Abrir la demo</a> (repositorio privado)</sub>
 
----
+### [Habla con tu dinero: asistente bancario por voz](https://unicaja-ai-assistant.vercel.app)
+Consultar tus finanzas hablando: saldo, Bizum y preguntas libres sobre tus movimientos, con respuesta hablada y un gráfico generado al momento. Lo he construido en dos iteraciones:
+- **v1:** agente LangGraph con herramientas bancarias, guardrails de dominio, control de alucinaciones con LLM-as-judge y confirmación explícita antes de cualquier operación. LLM intercambiable (Gemini, Cerebras, NVIDIA u Ollama).
+- **v2 (en desarrollo):** agent loop propio sobre WebSocket, NL→SQL protegido con `sqlglot` (solo `SELECT`, tablas en lista blanca, `LIMIT` y timeout) y medido con un set de 50 preguntas en español, y voz en streaming con detección de actividad, STT, TTS e interrupción del usuario.
 
-### Business Intelligence & Data Analytics — Civica Software
-**[`juanhdezz/BI_Civica_DataAnalyticsProject`](https://github.com/juanhdezz/BI_Civica_DataAnalyticsProject)**
+<sub><b>Stack:</b> Python, FastAPI, LangGraph, LangChain, LangSmith, DuckDB, sqlglot, PostgreSQL, Whisper, Piper, Next.js, ECharts, pytest</sub><br>
+<sub><a href="https://unicaja-ai-assistant.vercel.app">Abrir la demo (v1)</a> (repositorios privados)</sub>
 
-Proyecto desarrollado en colaboración con la consultora **Civica Software**, centrado en la construcción de una solución de analítica de negocio end-to-end:
+### [StemAgent](https://github.com/juanhdezz/stem-agent)
+Un agente base que se especializa solo, inspirado en las células madre (reto planteado por JetBrains). Dada una clase de problemas, busca en la web cómo los abordan los expertos, diseña su propia configuración (prompt, herramientas y flujo), se valida contra un benchmark etiquetado y repite hasta superar un umbral. Aplicado a code review en Python, pasa de un F1 de 0,180 con un agente genérico a 0,743 tras especializarse, en un benchmark propio de 37 fragmentos.
 
-- Pipeline ETL automatizado en Python que extrae, limpia y transforma datos en bruto provenientes de Kaggle.
-- Diseño del modelo de datos y carga en base de datos relacional con SQL.
-- Dashboard interactivo de Business Intelligence para soporte a la toma de decisiones.
+<sub><b>Stack:</b> Python, LangGraph, LangChain, OpenAI API, Tavily, pytest</sub><br>
+<sub><a href="https://github.com/juanhdezz/stem-agent">Ver el repositorio</a></sub>
 
-`Python` `SQL` `ETL` `Power BI` `Data Visualization`
+### [TFM: sesgo por heterogeneidad de pacientes en predicción de glucosa](https://github.com/juanhdezz/TFM-Glucose-Prediction)
+¿Mejora un modelo LSTM de predicción de glucosa (diabetes tipo 1) si se balancean los datos de entrenamiento por edad y sexo? Comparo 21 condiciones (sobremuestreo, SMOTER, jittering, submuestreo e híbridos) en tres datasets de monitorización continua, con validación por grupos de pacientes y tests de Friedman y Nemenyi. Conclusión: el balanceo demográfico no mejora el rendimiento global de forma generalizable, y donde sí tiene efecto aparece un trade-off entre el error global y la hipoglucemia severa.
 
----
+<sub><b>Stack:</b> Python, TensorFlow/Keras, pandas, NumPy, imbalanced-learn, scikit-learn, SLURM, LaTeX</sub><br>
+<sub><a href="https://github.com/juanhdezz/TFM-Glucose-Prediction">Ver el repositorio</a> | <a href="https://juanhdezz.github.io/TFM-Glucose-Prediction/">Leer la memoria (PDF)</a></sub>
 
-### Introducción a Ciencia de Datos — DATCOM UGR
-**[`juanhdezz/introduccion-ciencia-de-datos-DATCOM-UGR`](https://github.com/juanhdezz/introduccion-ciencia-de-datos-DATCOM-UGR)**
+## Mapa de mis repositorios
 
-Prácticas de la asignatura *Introducción a la Ciencia de Datos* del Máster DATCOM, abarcando:
-
-- **Regresión**: predicción de la resistencia del hormigón (*Concrete Compressive Strength dataset*) mediante modelos lineales y no lineales, con análisis de residuos y métricas de error.
-- **Clasificación**: predicción de solicitudes de crédito (*Australian Credit dataset*) con árboles de decisión, SVM y ensambles, incluyendo análisis de importancia de variables.
-- **EDA completo** sobre múltiples datasets, tratamiento de valores perdidos, detección de outliers y transformaciones de variables.
-
-`Python` `Scikit-Learn` `Pandas` `Matplotlib` `Jupyter Notebook`
-
----
-
-### Series Temporales & Flujos de Datos — DATCOM UGR
-**[`juanhdezz/SeriesTemporales-FlujosDatos-DATCOM-UGR`](https://github.com/juanhdezz/SeriesTemporales-FlujosDatos-DATCOM-UGR)**
-
-Prácticas de la asignatura *Series Temporales y Minería de Flujos de Datos* del Máster DATCOM:
-
-- Modelado y predicción de series temporales con métodos clásicos (ARIMA, Holt-Winters) y análisis de estacionariedad.
-- Técnicas de minería de flujos de datos (*data streams*) para el aprendizaje incremental sobre datos en tiempo real.
-
-`Python` `R` `Statsmodels` `Jupyter Notebook`
-
----
-
-### Big Data I — DATCOM UGR
-**[`juanhdezz/Big-Data-I-DATCOM-UGR`](https://github.com/juanhdezz/Big-Data-I-DATCOM-UGR)**
-
-Prácticas de la asignatura *Big Data I* del Máster DATCOM, con trabajo sobre infraestructuras y tecnologías del ecosistema Big Data:
-
-- Consultas analíticas sobre grandes volúmenes de datos con **Apache Impala**.
-- Modelado de datos no estructurados y consultas avanzadas con **MongoDB**.
-- Introducción a arquitecturas Cloud Computing y entornos distribuidos.
-
-`Impala` `MongoDB` `Cloud Computing` `SQL` `NoSQL`
-
----
-
-### RoomRadar — Web Scraping Multiplatforma
-**[`juanhdezz/RoomRadar-Scrapper`](https://github.com/juanhdezz/RoomRadar-Scrapper)**
-
-Herramienta de web scraping desarrollada con Selenium y Python para la extracción automatizada de precios y disponibilidad de alojamientos en **Airbnb** y **Google Travel**:
-
-- Automatización de navegación web con Selenium WebDriver para plataformas con renderizado dinámico (JavaScript).
-- Extracción, normalización y comparación de datos de alojamiento entre plataformas.
-- Interfaz web construida con Flask para la visualización de resultados.
-
-`Python` `Selenium` `BeautifulSoup` `Flask` `Web Scraping`
-
----
-
-### RecipeScrapper — Extracción de Recetas por Ingredientes
-**[`juanhdezz/recetas`](https://github.com/juanhdezz/recetas)**
-
-Script de web scraping en Python que automatiza la búsqueda y extracción de recetas de cocina a partir de una lista de ingredientes disponibles:
-
-- Consulta y parseo de páginas de recetas mediante `requests` y `BeautifulSoup`.
-- Filtrado y presentación estructurada de los resultados.
-
-`Python` `BeautifulSoup` `Requests` `Web Scraping`
-
----
-
-## Stack Tecnológico
-
-| Área | Tecnologías |
+| Si buscas... | Mira aquí |
 |---|---|
-| **Data Science & ML** | Python, Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn, Statsmodels, Jupyter |
-| **Big Data** | Apache Impala, MongoDB, Databricks, Lakehouse |
-| **Data Engineering** | ETL Pipelines, SQL, PostgreSQL, MySQL, MariaDB |
-| **Despliegue & Apps** | Streamlit, Flask, REST APIs |
-| **Web Scraping** | Selenium, BeautifulSoup, Requests |
-| **BI & Visualización** | Power BI, Looker, MicroStrategy |
-| **Desarrollo** | JavaScript, React.js, Node.js, PHP, Laravel, HTML5/CSS |
-| **Otros** | Git, C/C++, Java |
+| Agentes y LLMs | [stem-agent](https://github.com/juanhdezz/stem-agent), [playbook-ai](https://github.com/juanhdezz/playbook-ai) (prototipo temprano de agente personal) |
+| Investigación en ML | [TFM-Glucose-Prediction](https://github.com/juanhdezz/TFM-Glucose-Prediction) |
+| Máster en Ciencia de Datos (UGR) | [Repos `*-DATCOM-UGR`](https://github.com/juanhdezz?tab=repositories&q=DATCOM): prácticas de series temporales, big data, minería de medios sociales, detección de anomalías, soft computing y más |
+| Desarrollo de software | [TFG](https://github.com/juanhdezz/tfg_gestion_ccia) (aplicación Laravel para el departamento CCIA de la UGR), [portfolio-web](https://github.com/juanhdezz/portfolio-web) |
+| Primeros proyectos | [BI con Civica](https://github.com/juanhdezz/BI_Civica_DataAnalyticsProject), [detección de fraude](https://github.com/juanhdezz/Fraud_detection_analytics_project), [RoomRadar](https://github.com/juanhdezz/RoomRadar-Scrapper) (scraping) |
 
----
+## Stack
 
-## Idiomas
-
-| Idioma | Nivel |
+| Área | Herramientas |
 |---|---|
-| Español | Nativo |
-| Inglés | B2 — Cambridge Certificate |
+| Lenguajes | Python, SQL, R, TypeScript, Java, C++ |
+| ML y deep learning | scikit-learn, PyTorch, TensorFlow/Keras (LSTM), pandas, NumPy, imbalanced-learn |
+| Agentes y LLMs | LangGraph, LangChain, LangSmith, OpenAI API, Claude (Anthropic API), Gemini, Tavily |
+| Datos y big data | Spark (PySpark y Scala), Hadoop, HDFS, Pig, Databricks, DuckDB, PostgreSQL, MySQL, MongoDB |
+| Producto | FastAPI, Next.js, React, WebSockets, ECharts |
+| Herramientas | Docker, GitHub Actions, pytest, Playwright, SLURM, Google Cloud |
 
----
+## Trayectoria
+
+**Experiencia**
+- Data Scientist, WhiteBox <sub>jul 2026 – actualidad</sub>
+- AI Engineer / Automation Engineer, NTT Data Europe & LATAM <sub>ene 2026 – jul 2026</sub>
+- Data Engineer Trainee, NFQ <sub>sep 2025 – ene 2026</sub>
+
+**Formación**
+- Máster en Ciencia de Datos, Universidad de Granada <sub>2025 – 2026</sub>
+- Grado en Ingeniería Informática, Universidad de Granada <sub>2020 – 2025</sub>
+- Grado en Administración y Dirección de Empresas, Universidad de Granada <sub>2020 – 2025</sub>
+
+**Logros**
+- **HackSpain 2026:** uno de los 250 builders técnicos menores de 30 años seleccionados en España para un hackathon presencial de 36 horas en la UPM.
+- **Ideas Factory UGR (UGRemprendedora):** 1.er puesto, y después 3.er puesto en la final del Concurso Provincial de Ideas de Negocio, con un premio de 1.400 €.
+
+**Certificaciones**
+- Google Cloud Certified Generative AI Leader, Google Cloud Digital Leader
+- Cambridge B2 First (FCE)
+- Project Management (Coursera), Business Intelligence, Data Discovery and SQL (Civica), Data-Driven Analytics (Platzi)
+
+## Actividad reciente
+
+Últimos repositorios públicos con cambios. Se actualiza cada semana con una [GitHub Action](https://github.com/juanhdezz/juanhdezz/blob/main/.github/workflows/activity.yml).
+
+<!-- activity:start -->
+- [portfolio-web](https://github.com/juanhdezz/portfolio-web) <sub>TypeScript, último push 2026-10-03</sub>
+- [TFM-Glucose-Prediction](https://github.com/juanhdezz/TFM-Glucose-Prediction) <sub>Jupyter Notebook, último push 2026-09-16</sub>
+- [Aplicaciones-Ciencia-Datos-DATCOM-UGR](https://github.com/juanhdezz/Aplicaciones-Ciencia-Datos-DATCOM-UGR) <sub>Jupyter Notebook, último push 2026-06-16</sub>
+- [Emprendimiento-Transferencia-Conocimiento-DATCOM-UGR](https://github.com/juanhdezz/Emprendimiento-Transferencia-Conocimiento-DATCOM-UGR) <sub>Sin lenguaje, último push 2026-06-16</sub>
+- [Mineria-Datos-Aprendizaje-No-Supervisado-Seteccion-Anomalias-DATCOM-UGR](https://github.com/juanhdezz/Mineria-Datos-Aprendizaje-No-Supervisado-Seteccion-Anomalias-DATCOM-UGR) <sub>Jupyter Notebook, último push 2026-06-16</sub>
+<!-- activity:end -->
 
 ## Contacto
 
-- **LinkedIn**: [linkedin.com/in/juan-hernandez-sag](https://www.linkedin.com/in/juan-hernandez-sag)
-- **Email**: jhernandezsanchezagesta@gmail.com
-
----
-
-Abierto a oportunidades en **Data Science, Machine Learning, Agentic AI e Ingeniería de Datos**.
+Si quieres hablar de datos, agentes de IA o de un proyecto, escríbeme a **[jhernandezsanchezagesta@gmail.com](mailto:jhernandezsanchezagesta@gmail.com)** o búscame en **[LinkedIn](https://www.linkedin.com/in/juan-hernandez-sag/)**. Tienes más detalle de cada proyecto en mi **[portfolio](https://portfolio-web-juanhdezzs-projects.vercel.app)**.

@@ -1,0 +1,38 @@
+# Actualiza la tabla "Actividad reciente" del README una vez por semana.
+# No depende de servicios externos: consulta la API de GitHub y commitea Markdown estático.
+name: Actualizar actividad
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # lunes, 06:00 UTC
+  workflow_dispatch: # permite lanzarlo a mano desde la pestaña Actions
+
+permissions:
+  contents: write # necesario para commitear el README
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerar la sección de actividad
+        run: python .github/scripts/update_activity.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Solo commitea si la tabla ha cambiado, para no ensuciar el historial.
+      - name: Commit si hay cambios
+        run: |
+          if git diff --quiet README.md; then
+            echo "Sin cambios"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Actualizar actividad reciente"
+          git push
